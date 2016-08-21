@@ -10,7 +10,7 @@ typedef unsigned long long int WORD; /* Should be 64-bit = 8 bytes   */
 #define w        64             /* word size in bits                 */
 #define r        33             /* number of rounds                  */
 #define b        64             /* number of bytes in key            */
-#define c        16             /* number  words in key = ceil(8*b/w)*/
+#define c        8              /* number  words in key = ceil(8*b/w)*/
 #define t        136            /* size of table S = 4*(r+1) words   */
 WORD S[t];                      /* expanded key table                */
 //WORD P = 0xb7e15163, Q = 0x9e3779b9;  /* magic constants           */
